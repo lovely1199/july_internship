@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog care</title>
+</head>
+<style type="text/css">
+    * 
+    {
+        margin:0;
+        padding:0;
+    }
+    .container-fluid
+    {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(bg.jpeg);
+    }
+    .container
+    {
+        width: 1200px;
+        height: 80px;
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px;
+    } 
+    .container h2
+    {
+        font-family: arial;
+        font-size: 30px;
+        color:aliceblue;
+        cursor:pointer;
+    }
+    .container ul
+    {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .container ul li
+    {
+        font-family: arial;
+        color:aliceblue;
+        list-style: none;
+        margin-right: 50px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+    .container ul li:first-child
+    {
+        color:chartreuse;
+    }
+    .container ul li:hover
+    {
+        color:chartreuse;
+    }
+    .container .btn
+    {
+        width:200px;
+        height: 50px;
+        border-radius:10px;
+        font-size:18px;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color:aliceblue;
+        color:chartreuse;
+        transition:0.5s;
+    }
+    .container .btn:hover
+    {
+        background-color:chartreuse;
+        color:aliceblue;
+    }
+    .content
+    {
+        width: 1200px;
+        height: 100vh;
+        margin:auto;
+    }
+    .content h1
+    {
+        font-family:arial;
+        font-weight:bold;
+        color:antiquewhite;
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    .content p
+    {
+        font-family: arial;
+        font-weight: bold;
+        color:darkslategrey;
+        line-height: 30px;
+        padding-top:30px;
+    }
+    .content .btn
+    {
+        width:200px;
+        height: 50px;
+        border-radius:10px;
+        font-size:18px;
+        border:2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color:transparent;
+        color:chartreuse;
+        transition:0.5s;
+        margin-top: 30px;
+    }
+    .content .btn:hover
+    {
+        background-color:#fff;
+        color:chartreuse;
+    }
+</style>
+<body>
+    <div class ="container-fluid">
+        <div class="container">
+            <h2>Pet Care</h2>
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICE</li>
+                <li>BLOG</li>
+                <li>PRIVACY</li>
+            </ul>
+            <button class="btn"><ion-icon name="call-outline"></ion-icon>(323)446-663</button>
+            
+        </div>
+        <div class="content">
+            <h1>Grooming & Pet<br>Care</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quae illo velit atque delectus similique est molestias debitis nesciunt eos, explicabo odio vitae!</p>
+            <button class="btn">Learn more</button>
+            <p>Location:Boring Road,Patna</p>
+            
+        </div>
+     </div> 
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
